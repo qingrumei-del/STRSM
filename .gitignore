@@ -1,0 +1,15 @@
+# model weights (not required for reproducibility; re-train from code + data + seeds)
+checkpoints/
+*.pth
+
+# python
+__pycache__/
+*.pyc
+
+# latex build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
