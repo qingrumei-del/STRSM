@@ -2,8 +2,8 @@
 
 Code, data, and results for the paper on herbal prescription recommendation with STRSM — a set-aware self-supervised heterogeneous graph network — evaluated on two public datasets:
 
-- **PTM** (33,765 prescriptions, 390 symptoms, 811 herbs) — six-model comparison and SSL ablation (Tables 5–6 in the paper)
-- **TCM-SFT** (14,567 prescriptions, 3,830 symptoms, 566 herbs) — generalization on a dataset with a 10× larger symptom vocabulary (Table 7 in the paper)
+- **PTM** (33,765 prescriptions, 390 symptoms, 811 herbs) — six-model comparison (Table 5 in the paper) and SSL ablation (Table 7)
+- **TCM-SFT** (14,567 prescriptions, 3,830 symptoms, 566 herbs) — generalization on a dataset with a 10× larger symptom vocabulary (Table 6 in the paper)
 
 ## Repository layout
 
@@ -18,7 +18,7 @@ results/               multi-seed results: main table, per-seed details, signifi
 
 ## Models (code/)
 
-All six variants are re-trained under a unified configuration (200 epochs with cosine annealing, patience 50, dropout 0.3, symptom dropout 0.15, batch size 32) and evaluated over five random seeds (42–46).
+All six variants are re-trained under a unified configuration (200 epochs with cosine annealing, patience 50, dropout 0.1 in graph attention layers and 0.3 in the prediction layer, batch size 32) and evaluated over five random seeds (42–46).
 
 | # | Variant | Script | Launch command |
 |---|---|---|---|
