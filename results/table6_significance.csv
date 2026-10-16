@@ -1,6 +1,6 @@
 ﻿Comparison,Metric,PairedDiff,WinRate,PairedT,PairedP,WelchT,WelchP
-Ours-Full vs ST-WORD-200ep,F1@10,+0.0088,5/5,+12.84,0.0002,+7.44,0.0003
-Ours-Full vs ST-GAT-fp32-frz,F1@10,+0.0048,5/5,+4.95,0.0078,+4.69,0.0022
-Ours-Full vs ST-RGAT-frz,F1@10,+0.0019,5/5,+2.37,0.0770,+2.63,0.0311
-Ours-Full vs w/o Align,F1@10,+0.0008,4/5,+1.31,0.2591,+1.23,0.2597
-Ours-Full vs w/o Recon,F1@10,+0.0014,4/5,+1.91,0.1288,+1.89,0.0958
+full vs ST-WORD,F1@10,+0.0088,5/5,+12.84,0.0002,+7.44,0.0003
+full vs ST-GAT,F1@10,+0.0048,5/5,+4.95,0.0078,+4.69,0.0022
+full vs ST-RGAT,F1@10,+0.0019,5/5,+2.37,0.0770,+2.63,0.0311
+full vs w/o Align,F1@10,+0.0008,4/5,+1.31,0.2591,+1.23,0.2597
+full vs w/o Recon,F1@10,+0.0014,4/5,+1.91,0.1288,+1.89,0.0958
